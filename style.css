@@ -1,0 +1,212 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.header{
+      background-color: blue;
+      display: flex;
+      padding: 15px;
+      justify-content: space-between;
+      color: white;
+      font-size: 22px;
+      align-items: center;
+}
+
+.navigation, ul{
+      display: flex;
+}
+ul li{
+      list-style: none;
+      padding: 0 10px;
+}
+
+.lines{
+      height: 3px;
+      margin: 3px;
+      width: 30px;
+      background-color: white;
+}
+
+.toggle{
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 10px;
+}
+
+/* Mobile Device */
+@media (max-width:768px){
+      .navigation ul{
+            display: none;
+      }
+}
+
+/* main section style */
+.image-main img{
+      width: 600px;
+}
+
+@media (max-width:768px){
+      .main-section{
+            background-color: blue;
+            color: white;
+            padding: 20px;
+      }
+
+      .image-main img{
+            width: 450px;
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+      }
+      .content{
+            width: 400px;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+      }
+      .content p{
+            text-align: justify;
+            line-height: 1.5;
+            width: 400px;
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+      }
+      .btns{
+            display: flex;
+            gap: 20px;
+      }
+      .get{
+            background-color: white;
+            color: blue;
+            padding: 10px;
+            width: 140px;
+            border-radius: 10px;
+      }
+      .watch{
+            border: 3px solid white;
+            color: white;
+            padding: 10px;
+            width: 140px;
+            border-radius: 10px;
+      }
+}
+
+
+
+/* our story style  */
+/* mobile device  */
+@media (max-width:768px){
+      .our-story{
+            padding: 20px;
+      }
+      .image-story img{
+            width: 450px;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+      }
+      .title{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+      }
+      .line{
+            background-color: blue;
+            width: 50px;
+            height: 6px;
+      }
+      .title2{
+            text-align: center;
+            
+      }
+      .btns2{
+            background-color: rgb(219, 217, 217);
+            padding: 10px;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+            margin: 4px;
+      }
+      .who{
+            background-color: blue;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+            margin: auto;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            transform: all;
+      }
+      .vesion{
+            background-color: black;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+            margin: auto;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            margin-top: 7px;
+      }
+      .history{
+            background-color: gray;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+            margin: auto;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            margin-top: 7px;
+      }
+
+      .who:hover{
+            background-color: darkblue;
+            transition: all;
+      }
+      .desc{
+            width: 400px;
+            margin: 5px;
+            justify-content: center;
+            margin: auto;
+            text-align: left;
+      }
+      .desc p{
+            margin: 10px;
+      }
+
+}
+
+
+/* Footer Styling */
+/* Mobile Device */
+@media(max-width:768px){
+      .footer{
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            color: white;
+            font-size: 18px;
+      }
+      .face img{
+            width: 25px;
+      }
+      .ins img{
+            width: 25px;
+      }
+      .twi img{
+            width: 25px;
+      }
+      .socialmedia{
+            display: flex;
+      }
+
+}
